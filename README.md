@@ -1,2 +1,8 @@
 # CLI-Image-Searcher
-Terminal script written in Python to search for images and download them too along with their url.
+Terminal script written in Python to search for images then saving them with their url through automation.
+
+###Technologies
+---
+
+Selenium
+
