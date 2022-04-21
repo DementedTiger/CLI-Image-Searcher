@@ -1,4 +1,4 @@
-from search import search, search_functions, element_functions
+from search import setup, search_functions, element_functions
 from download import file_functions
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
@@ -6,7 +6,7 @@ from selenium.webdriver.common.by import By
 
 def main():
     try:
-        driver = search.setup_webdriver()
+        driver = setup.setup_webdriver()
         # Takes in user input as stores it to be used in our search
         search_term = input("Please input a search query...\n")
         driver.get("https://www.google.com/imghp")
